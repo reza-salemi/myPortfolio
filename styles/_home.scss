@@ -8,9 +8,9 @@
       rgba($primary-color, 0.8),
       rgba($primary-color, 0.3)
     ),
-    url("../img/reza.jpg") center right;
-  background-size: contain;
-  background-repeat: no-repeat;
+    url("../img/reza.jpg");
+  background-size: cover;
+
   &_name {
     font-size: 3.5rem;
     line-height: 1.2;

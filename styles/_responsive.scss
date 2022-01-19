@@ -56,6 +56,14 @@
   .home {
     text-align: left;
     padding-left: 40px;
+    background: linear-gradient(
+        to right,
+        rgba($primary-color, 0.8),
+        rgba($primary-color, 0.3)
+      ),
+      url("../img/reza.jpg") center right;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     &_my-name {
       margin-bottom: 1.5rem;
